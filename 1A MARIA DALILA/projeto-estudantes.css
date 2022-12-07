@@ -1,0 +1,166 @@
+/* 
+.color1 { #cc815c };
+.color2 { #f8b597 };
+.color3 { #64361f };
+.color4 { #b47b69 };
+.color5 { #beb8a9 };
+ */
+ @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(#83c5be,#006d77 );
+}
+.container {
+    background-color: #edf6f9;
+    margin: 64px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 6px #0e1d2f;
+    color: #1C1C1C;
+    padding: 64px;
+}
+.perfil {
+    display: flex;
+    align-items: center;
+}
+.foto-perfil{
+    border-radius: 400px;
+    max-height: 160px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.titulo-perfil{
+    margin-left: 2em;
+}
+.titulo-perfil h1 {
+    font-weight: 700;
+    font-size: 36px;
+}
+.titulo-perfil h3 {
+    font-weight: 400;
+    font-size: 24px;
+}
+.cabecalho {
+    position: absolute;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-left: 65%;
+}
+.cabecalho a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    margin-left: 12px;
+    text-transform: uppercase;
+    color: #1C1C1C;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 4px;
+}
+.cabecalho a:hover {
+    font-size: 22px;
+    color: #100138;
+    transition: 0.5s;
+    text-shadow: 3px 3px 6px #0e1d2f;
+}
+.projetos-geral {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+}
+ul{
+    padding-left: 8px;
+}
+.projetos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    margin: 24px 8px 8px 8px;
+    background: linear-gradient(230deg,#00c5d7  37%,#00eaff 73%) ;
+    box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+    padding-left: 0px;
+}
+.projetos-1a {
+    padding-left: 8px;
+}
+.projetos-titulo {
+    list-style: none;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+.projetos-itens{
+    list-style-type: none;
+    font-size: 18px;
+    line-height: 38px;
+    font-weight: 400;
+    text-align: left;
+    padding: 12px;
+}
+.projetos-itens a {
+    color: #1c1c1c;
+    text-decoration: none;
+}
+.projetos-itens a:hover {
+    color: #100138;
+    font-size: 20px;
+    text-shadow: 2px 2px 5px #a1f7ff;
+    transition: 0.3s;
+
+}
+.introducao {
+    display: inline-block;
+    margin: 30px 30px 0;
+}
+.subtitulo {
+    font-size: 25px;
+    text-align: center;
+}
+
+.texto-introducao {
+    margin: 100px 150px 0 250px;
+    font-size: 20px;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+.foto-cataratas {
+    width: 20%;
+    float: left;
+    margin:  20px 20px 0;
+    border-radius: 15px;
+}
+.texto-formacao {
+    font-size: 20px;
+    line-height: 1.5em;
+    text-align: left;
+    padding-bottom: 40px;
+}
+.foto-formatura {
+    width: 40%;
+    float: right;
+    margin: 20px;
+    margin-top: 0px;
+    border-radius: 15px;
+}
+.foto-parque{
+    width: 40%;
+    float: left;
+    margin: 20px;
+    margin-top: 0px;
+    border-radius: 15px;
+}
+.foto-colombia{
+    width: 30%;
+    float: right;
+    margin: 20px;
+    margin-top: 0px;
+    border-radius: 15px;
+}
+.foto-pti{
+    width: 40%;
+    float: left;
+    margin: 20px;
+    margin-top: 0px;
+    border-radius: 15px;
+}
